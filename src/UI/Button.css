@@ -1,0 +1,59 @@
+.add{
+    display:flex;
+    color:white;
+    background: #5E5DF0;
+    padding:7px 30px 7px 22px;
+    margin-bottom:10px;
+    border-radius:5px;
+    border:1px solid rgb(160, 160, 160);
+    touch-action: manipulation;
+    width: fit-content;
+    cursor: pointer;
+    transition:all 3s on ease;
+ }
+ 
+ .none{
+  margin:0px;
+  background-color:rgb(157, 157, 157);
+ }
+ 
+ .add:hover{
+   background: #4242aa;
+   color:#c8c8c8;
+ }
+
+.cancel{
+    background-color: rgb(154, 41, 41);
+    margin-right: 5px;
+  }
+  
+  .cancel:hover{
+      background-color: rgb(116, 29, 29);
+  }
+  
+  .save{
+     background-color: rgb(41, 154, 88);
+  }
+  
+  .save:hover{
+      background-color: rgb(29, 116, 55);
+  }
+  
+  .sign-in{
+      background-color: rgb(202, 110, 44);
+      width:112px;
+      margin-left: 3px;
+      font-weight: 600;
+  }
+  
+  .sign-in:hover{
+      background-color: rgb(116, 78, 29);
+  }
+
+  .left{
+    align-self: flex-end;
+  }
+
+  .no_bottom{
+    margin:0;
+  }

@@ -1,0 +1,26 @@
+.list__options{
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+.list__sort{
+    color:rgb(68, 68, 68);
+    padding:7px 15px;
+    margin-bottom:10px;
+    border-radius:5px;
+    border:1px solid rgb(104, 104, 104);
+    width:fit-content;
+    margin-right:8px;
+    transition:all 2s on ease;
+    font-weight: 600;
+}
+ 
+.list__sort:hover{
+   background:#f4f4f4;
+   color:rgb(107, 107, 107);
+}
+ 
+.list__sort_item{
+     align-self: center;
+     font-weight: 600;
+} 

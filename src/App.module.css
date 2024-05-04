@@ -1,0 +1,7 @@
+@media(max-width:1000px){
+   .App{
+       display:grid;
+       grid-template-columns: 100%;
+       justify-content: center;
+   }
+}
